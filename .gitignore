@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/
+storage/
+.repair-backup/
+tmp/
+output/
+/control-over-chaos*.png
+__pycache__/
+*.py[cod]
+*.log
+Thumbs.db
+.DS_Store

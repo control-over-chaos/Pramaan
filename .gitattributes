@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# Preserve document offsets and image bytes on every platform.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary

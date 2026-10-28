@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 210" fill="none">
+  <defs>
+    <linearGradient id="wave-saffron" x1="0" y1="104" x2="260" y2="138" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ef8c40"/><stop offset=".55" stop-color="#df7935"/><stop offset="1" stop-color="#f0a257"/>
+    </linearGradient>
+    <linearGradient id="wave-white" x1="0" y1="118" x2="260" y2="151" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffdf6"/><stop offset=".55" stop-color="#e6edf3"/><stop offset="1" stop-color="#fffaf0"/>
+    </linearGradient>
+    <linearGradient id="wave-green" x1="0" y1="132" x2="260" y2="167" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#329468"/><stop offset=".55" stop-color="#146542"/><stop offset="1" stop-color="#3c9b68"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 104c42-13 74-16 113-4 45 14 86 11 155-9v44c-58 23-111 24-160 9C72 132 39 133 0 148v-44Z" fill="url(#wave-saffron)"/>
+  <path d="M0 116c43-12 75-14 113-2 45 14 86 11 155-9v15c-58 21-111 22-160 8C72 116 39 119 0 133v-17Z" fill="url(#wave-white)"/>
+  <path d="M0 132c43-12 75-14 113-2 45 14 86 11 155-9v18c-58 22-111 23-160 8C72 132 39 135 0 149v-17Z" fill="url(#wave-green)"/>
+  <path d="M0 104c42-13 74-16 113-4 45 14 86 11 155-9M0 148c39-13 72-16 108-4 49 16 102 14 160-9" stroke="#f6d49b" stroke-opacity=".42" stroke-width="1.5"/>
+  <g transform="translate(111 178)" stroke="#4d80ad" stroke-opacity=".78">
+    <circle r="23" stroke-width="2.2"/>
+    <circle r="19" stroke-width="1.1"/>
+    <circle r="3.2" stroke-width="1.4"/>
+    <path d="M0-19V-3.2M0 3.2V19M-19 0h15.8M3.2 0H19M-13.44-13.44l11.2 11.2M2.24 2.24l11.2 11.2M13.44-13.44 2.24-2.24M-2.24 2.24l-11.2 11.2M-7.27-17.55l5.6 13.52M1.67 4.03l5.6 13.52M7.27-17.55l-5.6 13.52M-1.67 4.03l-5.6 13.52M-17.55-7.27l13.52 5.6M4.03 1.67l13.52 5.6M17.55-7.27l-13.52 5.6M-4.03 1.67l-13.52 5.6" stroke-width=".9"/>
+  </g>
+  <path d="M20 202h228" stroke="#294d74" stroke-opacity=".55" stroke-width="1"/>
+</svg>

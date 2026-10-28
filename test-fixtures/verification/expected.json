@@ -1,0 +1,13 @@
+{
+  "assessmentDate": "2026-10-25",
+  "valid.pdf": "PASS for expiry; official source unavailable",
+  "expired.pdf": "FAIL for expiry",
+  "mismatch.pdf": "TEST_ONLY with mismatch in controlled source comparison",
+  "corrected.pdf": "New version; old checks must not apply",
+  "unsupported.pdf": "MANUAL_REVIEW",
+  "encrypted.pdf": "REJECT",
+  "corrupt.pdf": "REJECT",
+  "empty.pdf": "REJECT",
+  "scanned.pdf": "OCR then REVIEW_REQUIRED because native OCR confidence is unknown",
+  "unreadable.png": "MANUAL_REVIEW"
+}

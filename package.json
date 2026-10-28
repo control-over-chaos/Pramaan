@@ -1,0 +1,14 @@
+{
+  "name": "pramaan",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Institutional verification and regulatory intelligence workspace",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "test": "node --test src/*.test.mjs",
+    "start": "node src/server.mjs",
+    "dev": "node --watch src/server.mjs",
+    "test:sahayak": "node --test src/sahayak-evaluation.test.mjs src/sahayak-retrieval.test.mjs"
+  }
+}

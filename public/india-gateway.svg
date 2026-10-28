@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="380" y1="0" x2="380" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffaf0" stop-opacity=".06"/>
+      <stop offset=".58" stop-color="#f8e3bf" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#e9b96f" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="466" y1="45" x2="466" y2="336" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#efbd73"/>
+      <stop offset=".44" stop-color="#d8924e"/>
+      <stop offset="1" stop-color="#a85f32"/>
+    </linearGradient>
+    <linearGradient id="stoneLight" x1="420" y1="90" x2="544" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f5d391"/>
+      <stop offset=".5" stop-color="#d99856"/>
+      <stop offset="1" stop-color="#f0c27b"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="380" y1="260" x2="380" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#66865d" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#698554" stop-opacity=".52"/>
+    </linearGradient>
+    <linearGradient id="tricolor" x1="520" y1="337" x2="760" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e88a43"/>
+      <stop offset=".48" stop-color="#f8f1e2"/>
+      <stop offset="1" stop-color="#348d5b"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h760v360H0z"/>
+  <circle cx="638" cy="69" r="43" fill="#f6c978" fill-opacity=".28"/>
+  <path d="M426 72c28-18 54-17 82 0m-63 13c18-11 34-10 51 0m74-39c15-9 28-8 43 1" stroke="#fff" stroke-opacity=".28" stroke-width="3" stroke-linecap="round"/>
+  <path d="M0 270c95-17 143-15 214 1 78 17 161 18 248-1 107-23 192-14 298 5v85H0v-90Z" fill="url(#ground)"/>
+  <path d="M0 294c98-22 170-7 235 4m348-4c61-15 119-16 177-7" stroke="#b9bd8e" stroke-opacity=".45" stroke-width="2"/>
+  <g fill="#6d8c63" fill-opacity=".26">
+    <path d="M12 269c0-25 9-42 25-50 16 8 25 25 25 50H12Z"/><path d="M26 223h23v58H26z"/>
+    <path d="M86 269c0-30 11-50 29-59 19 9 29 29 29 59H86Z"/><path d="M99 218h32v63H99z"/>
+    <path d="M643 267c0-27 10-46 28-55 18 9 28 28 28 55h-56Z"/><path d="M657 218h28v64h-28z"/>
+    <path d="M707 271c0-22 8-37 22-44 14 7 22 22 22 44h-44Z"/><path d="M718 232h22v50h-22z"/>
+  </g>
+  <g fill="#718e65" fill-opacity=".2">
+    <path d="M0 267h18v14H0zM170 270h54v11h-54zM276 264h29v17h-29zM585 271h41v10h-41z"/>
+    <path d="M180 252h4v29h-4zM291 245h4v36h-4zM603 253h5v28h-5z"/>
+  </g>
+  <g fill="#c6a574" fill-opacity=".22" stroke="#ba986b" stroke-opacity=".23" stroke-width="1.5">
+    <path d="M177 267v-28l18-12 18 12v28h-5v-23h-26v23z"/>
+    <path d="M219 270v-20l15-10 15 10v20h-5v-16h-20v16z"/>
+    <path d="M567 269v-27l18-12 18 12v27h-5v-22h-26v22z"/>
+  </g>
+  <ellipse cx="477" cy="337" rx="183" ry="12" fill="#61432e" fill-opacity=".16"/>
+
+  <!-- India Gate: stepped sandstone crown, inscribed piers and deep central arch. -->
+  <g stroke="#995a31" stroke-opacity=".55" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M391 318h171v14H391z" fill="#a95e32"/>
+    <path d="M399 308h155v10H399z" fill="url(#stoneLight)"/>
+    <path d="M407 137h139v171H407z" fill="url(#stone)"/>
+    <path d="M398 127h157v10H398z" fill="url(#stoneLight)"/>
+    <path d="M405 116h143v11H405z" fill="url(#stone)"/>
+    <path d="M414 102h125v14H414z" fill="url(#stoneLight)"/>
+    <path d="M421 91h111v11H421z" fill="url(#stone)"/>
+    <path d="M430 76h93v15H430z" fill="url(#stoneLight)"/>
+    <path d="M439 65h75v11H439z" fill="url(#stone)"/>
+    <path d="M447 52h59v13H447z" fill="url(#stoneLight)"/>
+    <path d="M454 43h45v9h-45z" fill="url(#stone)"/>
+    <path d="M463 36h27v7h-27z" fill="#d99855"/>
+    <path d="M447 136h59v17h-59z" fill="#b86d3b"/>
+    <path d="M457 134c0-9 8-16 20-16s20 7 20 16h-8c0-5-5-9-12-9s-12 4-12 9h-8Z" fill="#f2c780"/>
+    <path d="M439 152v-12h16v12m44 0v-12h16v12" fill="#a95e32"/>
+    <path d="M448 152h-14v17h14m58-17h14v17h-14" fill="#cf8548"/>
+    <path d="M414 174h20v119h-20zM519 174h20v119h-20z" fill="#e3a65f"/>
+    <path d="M418 181h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12" stroke="#f5d49b" stroke-width="1"/>
+    <path d="M523 181h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12m-12 8h12" stroke="#f5d49b" stroke-width="1"/>
+    <path d="M407 171h139M407 294h139M400 310h153" stroke="#f5d49b" stroke-opacity=".72" stroke-width="2"/>
+  </g>
+  <path d="M435 169h83v146h-83z" fill="#f5dfb5" fill-opacity=".18"/>
+  <path d="M448 317v-81c0-31 12-52 29-52s29 21 29 52v81h-58Z" fill="#fff5e1"/>
+  <path d="M454 317v-79c0-26 10-43 23-43s23 17 23 43v79" stroke="#b56e3a" stroke-opacity=".62" stroke-width="3"/>
+  <path d="M461 314v-77c0-18 6-30 16-30s16 12 16 30v77" stroke="#d6a16a" stroke-opacity=".42" stroke-width="1.5"/>
+  <path d="M443 158h10m-10 5h10m55-5h10m-10 5h10" stroke="#f8dca7" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M466 99h22m-22 5h22m-17-23h12m-12-4h12" stroke="#f7d89c" stroke-opacity=".8" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M421 124h103M415 133h127" stroke="#8c512d" stroke-opacity=".35" stroke-width="1"/>
+  <g fill="#f2cb8d" fill-opacity=".85">
+    <path d="M421 157h7v5h-7zM421 169h7v5h-7zM421 283h7v5h-7zM526 157h7v5h-7zM526 169h7v5h-7zM526 283h7v5h-7z"/>
+    <path d="M438 111h7v4h-7zM454 111h7v4h-7zM490 111h7v4h-7zM506 111h7v4h-7z"/>
+  </g>
+  <path d="M0 339c92-21 161-16 231 2 65 16 116 16 182 0 83-20 173-25 347-5v24H0v-21Z" fill="#668153" fill-opacity=".16"/>
+  <path d="M525 342c72-18 145-20 235-5" stroke="#e78947" stroke-width="5" stroke-linecap="round" stroke-opacity=".86"/>
+  <path d="M531 350c69-16 144-17 229-3" stroke="#fff7e7" stroke-width="5" stroke-linecap="round"/>
+  <path d="M538 358c68-14 139-14 222-2" stroke="#388e61" stroke-width="5" stroke-linecap="round" stroke-opacity=".9"/>
+</svg>
